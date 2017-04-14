@@ -1,0 +1,29 @@
+{
+  "name": "ng-transclude-slot-template",
+  "version": "1.0.0",
+  "description": "Angular Directive for using ngTranscludeSlots as templates",
+  "main": "transclude-slot-template.directive.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/croszatycki/ngTranscludeSlotTemplate"
+  },
+  "keywords": [
+    "Angular",
+    "Transclude",
+    "Slot",
+    "Template"
+  ],
+  "author": "Cezary Roszatycki <croszatycki@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/croszatycki/ngTranscludeSlotTemplate/issues"
+  },
+  "homepage": "https://github.com/croszatycki/ngTranscludeSlotTemplate",
+  "dependencies": {
+    "angular": "~1.5"
+  },
+  "devDependencies": {
+  }
+}

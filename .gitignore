@@ -1,0 +1,11 @@
+bower_components/
+node_modules/
+.idea/
+.sass-cache/
+dist
+src/test/coverage/
+docs/
+.DS_Store
+*.orig
+*.rej
+tmp
