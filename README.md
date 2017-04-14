@@ -15,6 +15,22 @@ or with npm:
 npm install ng-transclude-slot-template --save
 ```
 
+## Usage
+This directive always should be child of your directive 
+```html
+<ng-transclude-slot-template 
+  directive-source="templateRequirements"
+  locals="{$item: item}"
+  slot-name="myTemplate">
+</ng-transclude-slot-template> 
+```
+
+* directiveSource - should contains `$tranclude` and `$scope` of top directive, where you place templates
+  * `$transclude` is needed to extract template slot
+  * `$scope` is needed to append template to correct scope, sometimes is needed when You are using top scope variables or methods
+* locals - additional variables
+* slotName - template name from top directive
+ 
 ## Example
 
 ```html
